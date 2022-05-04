@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  cursor: pointer;
+}
+
+.App {
+  height: 100vh;
+  background-color: #222223;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  height: 75px;
+  /* top: 0;
+  left: 0; */
+  background-color: #57A3D5;
+  color: black;
+}
+
+.navBarLogo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+  width: auto;
+  height: 50%;
+}
+
+.navPageOptions {
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.navLink:visited, .navLink:link {
+  color: white;
+  transition: 0.3s;
+}
+
+.navLink:hover {
+  color: black;
+  transition: 0.3s;
+}
+
+.navPageOptions ul {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+}
+
+.navOption {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navPageOptions {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size:larger
+}
+
+.viewer {
+  width: 80%;
+  /* height: 25rem; */
+  padding: 5%;
+  background-color: white;
+  color: black;
+  margin: auto;
+  margin-top: 10%;
+  text-align: left;
+}
+
+.dataNav {
+  margin-top: 10px;
+  display: flex;
+}
+
+.viewer h1 {
+  margin: 10px;
+}
+
+.viewer ol {
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+.dataP {
+  display: flex;
+  font-weight: bold;
+  margin: 0px;
+  margin-left: 5%;
+}
+
+.responseP {
+  margin: 0;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.blueBtn {
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  background-color: #57A3D5;
+  color: white;
+
+  border-radius: 10px;
+  border-style: none;
+  margin: 5px;
+
+  font-weight: bold;
+}
+
+.textButton {
+  color: white;
+
+  background: none;
+  border-style: none;
+
+  font-weight: bold;
+}
+
+#left {
+  float: left;
+  margin-left: 5%;
+}
+
+#right {
+  float: right;
+  margin-right: 5%;
+}
+
+.blueBtnGroup {
+  margin-left: auto;
+  margin-right: auto;
+}
